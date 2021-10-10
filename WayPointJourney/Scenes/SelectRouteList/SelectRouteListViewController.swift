@@ -142,7 +142,7 @@ class SelectRouteListViewController: BaseViewController {
     // MARK: UI methods
     func setNavigationItems() {
         navigationItem.leftBarButtonItem = UIBarButtonItem(
-            image: UIImage(assetIdentifier: .back).withRenderingMode(.alwaysOriginal),
+            image: nil,
             style: .plain,
             target: self,
             action: #selector(backButtonDidTap)
@@ -185,6 +185,7 @@ class SelectRouteListViewController: BaseViewController {
 extension SelectRouteListViewController: SelectRouteListDisplayLogic {
     func displayInitViews(viewModel: SelectRouteList.InitViews.ViewModel) {
         editWayPointView.setText(with: viewModel.wayPointInfo)
+        navigationItem.leftBarButtonItem?.image = viewModel.leftNavigationItemImage
     }
 
     func displayTapBackButton(viewModel: SelectRouteList.TapBackButton.ViewModel) {

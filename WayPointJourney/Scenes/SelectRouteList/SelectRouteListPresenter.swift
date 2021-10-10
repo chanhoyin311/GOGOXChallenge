@@ -29,7 +29,11 @@ class SelectRouteListPresenter: SelectRouteListPresentationLogic {
             uniqueKeysWithValues:
                 response.wayPointInfo.map { key, value in (key, value.name) }
         )
-        let viewModel = SelectRouteList.InitViews.ViewModel(wayPointInfo: wayPointInfo)
+        let viewModel = SelectRouteList.InitViews.ViewModel(
+            wayPointInfo: wayPointInfo,
+            leftNavigationItemImage: UIImage(assetIdentifier: .back)
+                .withRenderingMode(.alwaysOriginal)
+        )
         viewController?.displayInitViews(viewModel: viewModel)
     }
 

@@ -18,6 +18,7 @@ enum SelectRouteList {
         }
         struct ViewModel {
             let wayPointInfo: [WayPointViewType: String]
+            let leftNavigationItemImage: UIImage
         }
     }
 
