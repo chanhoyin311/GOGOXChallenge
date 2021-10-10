@@ -1,0 +1,6 @@
+framework module Pods_WayPointJourney_WayPointJourneyTests {
+  umbrella header "Pods-WayPointJourney-WayPointJourneyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,15 +7,260 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F384863B02AE3609A4063FE /* Pods_WayPointJourney_WayPointJourneyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B697F70EE54D0D63C6953AA /* Pods_WayPointJourney_WayPointJourneyTests.framework */; };
+		82ADE977D65F2952EB2A940F /* Pods_Models_ModelsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945945E3CB81543A9A32F318 /* Pods_Models_ModelsTests.framework */; };
+		86A8A1EB4F20F9CE5826C6F6 /* Pods_Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14CDBBCBD1BC29282F84905 /* Pods_Models.framework */; };
+		A2381D8F8890AF7C4C97BBCD /* Pods_DesignKit_DesignKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A796F9889FE2B20C77C3A34E /* Pods_DesignKit_DesignKitTests.framework */; };
+		A70E67534317B067494D13D7 /* Pods_GOGOXCodeChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E35FC08EF93E516B76DFD884 /* Pods_GOGOXCodeChallenge.framework */; };
+		B7FF93F8E30BA0F62660154F /* Pods_Core_CoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A618E8E7A26BB14F9CED11 /* Pods_Core_CoreTests.framework */; };
+		BA37309B2712816E000E3367 /* Pods_DesignKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B20193343FF8862E4E68419 /* Pods_DesignKit.framework */; };
+		BA3730A0271281CA000E3367 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BA37309F271281CA000E3367 /* SnapKit */; };
+		BA422A8E271164FE00BAB3C2 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422A8D271164FE00BAB3C2 /* InputField.swift */; };
+		BA422A932711676900BAB3C2 /* WayPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422A922711676900BAB3C2 /* WayPointView.swift */; };
+		BA422A9527116A9000BAB3C2 /* EditWayPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422A9427116A9000BAB3C2 /* EditWayPointView.swift */; };
+		BA422A9F2711A60700BAB3C2 /* SelectRouteListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422A972711A60600BAB3C2 /* SelectRouteListPresenter.swift */; };
+		BA422AA02711A60700BAB3C2 /* SelectRouteListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422A982711A60600BAB3C2 /* SelectRouteListWorker.swift */; };
+		BA422AA12711A60700BAB3C2 /* SelectRouteListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422A992711A60600BAB3C2 /* SelectRouteListRouter.swift */; };
+		BA422AA22711A60700BAB3C2 /* SelectRouteListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422A9A2711A60700BAB3C2 /* SelectRouteListModels.swift */; };
+		BA422AA32711A60700BAB3C2 /* SelectRouteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422A9B2711A60700BAB3C2 /* SelectRouteListViewController.swift */; };
+		BA422AA42711A60700BAB3C2 /* SelectRouteListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422A9C2711A60700BAB3C2 /* SelectRouteListInteractor.swift */; };
+		BA422AA52711A60700BAB3C2 /* SelectRouteListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422A9D2711A60700BAB3C2 /* SelectRouteListConfigurator.swift */; };
+		BA422AAB2711AFC400BAB3C2 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422AAA2711AFC400BAB3C2 /* Images.swift */; };
+		BA422AAC2711B01A00BAB3C2 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422AAA2711AFC400BAB3C2 /* Images.swift */; };
+		BA422AB02711BD4100BAB3C2 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422AAF2711BD4100BAB3C2 /* LocationTableViewCell.swift */; };
+		BA422AB32711BECF00BAB3C2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA422AB22711BECF00BAB3C2 /* Location.swift */; };
+		BA422AB72711C02200BAB3C2 /* FetchLocations.json in Resources */ = {isa = PBXBuildFile; fileRef = BA422AB62711C02200BAB3C2 /* FetchLocations.json */; };
 		BA6FB8082710337F00E419C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8072710337F00E419C3 /* AppDelegate.swift */; };
 		BA6FB80A2710337F00E419C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8092710337F00E419C3 /* SceneDelegate.swift */; };
 		BA6FB80C2710337F00E419C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB80B2710337F00E419C3 /* ViewController.swift */; };
 		BA6FB80F2710337F00E419C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6FB80D2710337F00E419C3 /* Main.storyboard */; };
 		BA6FB8112710338000E419C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6FB8102710338000E419C3 /* Assets.xcassets */; };
 		BA6FB8142710338000E419C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6FB8122710338000E419C3 /* LaunchScreen.storyboard */; };
+		BA6FB8252710346000E419C3 /* WayPointJourney.docc in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8242710346000E419C3 /* WayPointJourney.docc */; };
+		BA6FB82B2710346100E419C3 /* WayPointJourney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8212710346000E419C3 /* WayPointJourney.framework */; };
+		BA6FB8322710346100E419C3 /* WayPointJourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8312710346100E419C3 /* WayPointJourneyTests.swift */; };
+		BA6FB8332710346100E419C3 /* WayPointJourney.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6FB8232710346000E419C3 /* WayPointJourney.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6FB8362710346100E419C3 /* WayPointJourney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8212710346000E419C3 /* WayPointJourney.framework */; };
+		BA6FB8372710346100E419C3 /* WayPointJourney.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8212710346000E419C3 /* WayPointJourney.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6FB8482710347100E419C3 /* DesignKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8472710347100E419C3 /* DesignKit.docc */; };
+		BA6FB84E2710347200E419C3 /* DesignKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8442710347100E419C3 /* DesignKit.framework */; };
+		BA6FB8552710347200E419C3 /* DesignKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8542710347200E419C3 /* DesignKitTests.swift */; };
+		BA6FB8562710347200E419C3 /* DesignKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6FB8462710347100E419C3 /* DesignKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6FB8592710347200E419C3 /* DesignKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8442710347100E419C3 /* DesignKit.framework */; };
+		BA6FB85A2710347200E419C3 /* DesignKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8442710347100E419C3 /* DesignKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6FB86A2710347F00E419C3 /* Core.docc in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8692710347F00E419C3 /* Core.docc */; };
+		BA6FB8702710347F00E419C3 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8662710347F00E419C3 /* Core.framework */; };
+		BA6FB8772710347F00E419C3 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8762710347F00E419C3 /* CoreTests.swift */; };
+		BA6FB8782710347F00E419C3 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6FB8682710347F00E419C3 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6FB87B2710347F00E419C3 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8662710347F00E419C3 /* Core.framework */; };
+		BA6FB87C2710347F00E419C3 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8662710347F00E419C3 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6FB88C2710348D00E419C3 /* Models.docc in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB88B2710348D00E419C3 /* Models.docc */; };
+		BA6FB8922710348D00E419C3 /* Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8882710348D00E419C3 /* Models.framework */; };
+		BA6FB8992710348D00E419C3 /* ModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8982710348D00E419C3 /* ModelsTests.swift */; };
+		BA6FB89A2710348D00E419C3 /* Models.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6FB88A2710348D00E419C3 /* Models.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6FB89D2710348D00E419C3 /* Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8882710348D00E419C3 /* Models.framework */; };
+		BA6FB89E2710348D00E419C3 /* Models.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8882710348D00E419C3 /* Models.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA6FB8A6271034A800E419C3 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8662710347F00E419C3 /* Core.framework */; };
+		BA6FB8AB271034AE00E419C3 /* DesignKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8442710347100E419C3 /* DesignKit.framework */; };
+		BA6FB8AF271034BA00E419C3 /* Models.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6FB8882710348D00E419C3 /* Models.framework */; };
+		BA6FB8B7271035E100E419C3 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8B6271035E100E419C3 /* Configuration.swift */; };
+		BA6FB8B92710362400E419C3 /* StringProvidable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8B82710362400E419C3 /* StringProvidable.swift */; };
+		BA6FB8BB2710367A00E419C3 /* Layouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8BA2710367A00E419C3 /* Layouting.swift */; };
+		BA6FB8BD271036BE00E419C3 /* WayPointAPIStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8BC271036BE00E419C3 /* WayPointAPIStrategy.swift */; };
+		BA6FB8C92710375200E419C3 /* WayPointPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8C12710375200E419C3 /* WayPointPresenter.swift */; };
+		BA6FB8CA2710375200E419C3 /* WayPointWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8C22710375200E419C3 /* WayPointWorker.swift */; };
+		BA6FB8CB2710375200E419C3 /* WayPointRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8C32710375200E419C3 /* WayPointRouter.swift */; };
+		BA6FB8CC2710375200E419C3 /* WayPointModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8C42710375200E419C3 /* WayPointModels.swift */; };
+		BA6FB8CD2710375200E419C3 /* WayPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8C52710375200E419C3 /* WayPointViewController.swift */; };
+		BA6FB8CE2710375200E419C3 /* WayPointInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8C62710375200E419C3 /* WayPointInteractor.swift */; };
+		BA6FB8CF2710375200E419C3 /* WayPointConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8C72710375200E419C3 /* WayPointConfigurator.swift */; };
+		BA6FB8D4271037B600E419C3 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8D3271037B600E419C3 /* Layout.swift */; };
+		BA6FB8D82710382400E419C3 /* ColorLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8D72710382400E419C3 /* ColorLayout.swift */; };
+		BA6FB8DA2710384D00E419C3 /* FontsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8D92710384D00E419C3 /* FontsLayout.swift */; };
+		BA6FB8DC27103AAD00E419C3 /* JourneyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8DB27103AAD00E419C3 /* JourneyFactory.swift */; };
+		BA6FB8DE27105DC000E419C3 /* WayPointConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8DD27105DC000E419C3 /* WayPointConfiguration.swift */; };
+		BA6FB8E227105E3C00E419C3 /* StringProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8E127105E3C00E419C3 /* StringProvider.swift */; };
+		BA6FB8E427105EB200E419C3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8E327105EB200E419C3 /* Constants.swift */; };
+		BA6FB8E827105F9D00E419C3 /* StubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8E727105F9D00E419C3 /* StubAPIClient.swift */; };
+		BA6FB8EB2710602000E419C3 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8EA2710602000E419C3 /* APIError.swift */; };
+		BA6FB8ED2710607A00E419C3 /* RealAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8EC2710607A00E419C3 /* RealAPIClient.swift */; };
+		BA6FB8F02710610400E419C3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8EF2710610400E419C3 /* BaseViewController.swift */; };
+		BA6FB8FB2710659400E419C3 /* BaseLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6FB8FA2710659400E419C3 /* BaseLogic.swift */; };
+		E36B527323B77D571195574D /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB379B023E9BAA7C303F381 /* Pods_Core.framework */; };
+		F5C7404FC955A1932C8713F5 /* Pods_WayPointJourney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4483A72790D5489E035761D3 /* Pods_WayPointJourney.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BA6FB82C2710346100E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8202710346000E419C3;
+			remoteInfo = WayPointJourney;
+		};
+		BA6FB82E2710346100E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8032710337F00E419C3;
+			remoteInfo = GOGOXCodeChallenge;
+		};
+		BA6FB8342710346100E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8202710346000E419C3;
+			remoteInfo = WayPointJourney;
+		};
+		BA6FB84F2710347200E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8432710347100E419C3;
+			remoteInfo = DesignKit;
+		};
+		BA6FB8512710347200E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8032710337F00E419C3;
+			remoteInfo = GOGOXCodeChallenge;
+		};
+		BA6FB8572710347200E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8432710347100E419C3;
+			remoteInfo = DesignKit;
+		};
+		BA6FB8712710347F00E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8652710347F00E419C3;
+			remoteInfo = Core;
+		};
+		BA6FB8732710347F00E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8032710337F00E419C3;
+			remoteInfo = GOGOXCodeChallenge;
+		};
+		BA6FB8792710347F00E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8652710347F00E419C3;
+			remoteInfo = Core;
+		};
+		BA6FB8932710348D00E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8872710348D00E419C3;
+			remoteInfo = Models;
+		};
+		BA6FB8952710348D00E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8032710337F00E419C3;
+			remoteInfo = GOGOXCodeChallenge;
+		};
+		BA6FB89B2710348D00E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8872710348D00E419C3;
+			remoteInfo = Models;
+		};
+		BA6FB8A8271034A800E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8652710347F00E419C3;
+			remoteInfo = Core;
+		};
+		BA6FB8AD271034AE00E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8432710347100E419C3;
+			remoteInfo = DesignKit;
+		};
+		BA6FB8B1271034BA00E419C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6FB7FC2710337F00E419C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6FB8872710348D00E419C3;
+			remoteInfo = Models;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA37309927127C20000E3367 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB83B2710346100E419C3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA6FB89E2710348D00E419C3 /* Models.framework in Embed Frameworks */,
+				BA6FB8372710346100E419C3 /* WayPointJourney.framework in Embed Frameworks */,
+				BA6FB87C2710347F00E419C3 /* Core.framework in Embed Frameworks */,
+				BA6FB85A2710347200E419C3 /* DesignKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1B697F70EE54D0D63C6953AA /* Pods_WayPointJourney_WayPointJourneyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WayPointJourney_WayPointJourneyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21993ABED65080A873353532 /* Pods-WayPointJourney-WayPointJourneyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WayPointJourney-WayPointJourneyTests.release.xcconfig"; path = "Target Support Files/Pods-WayPointJourney-WayPointJourneyTests/Pods-WayPointJourney-WayPointJourneyTests.release.xcconfig"; sourceTree = "<group>"; };
+		289F25E33AB1BD501F398308 /* Pods-WayPointJourney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WayPointJourney.debug.xcconfig"; path = "Target Support Files/Pods-WayPointJourney/Pods-WayPointJourney.debug.xcconfig"; sourceTree = "<group>"; };
+		3619F0F9057588057F40EC3D /* Pods-Models-ModelsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Models-ModelsTests.release.xcconfig"; path = "Target Support Files/Pods-Models-ModelsTests/Pods-Models-ModelsTests.release.xcconfig"; sourceTree = "<group>"; };
+		364A3F992C00A5BB5E619BD2 /* Pods-GOGOXCodeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOGOXCodeChallenge.release.xcconfig"; path = "Target Support Files/Pods-GOGOXCodeChallenge/Pods-GOGOXCodeChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		4483A72790D5489E035761D3 /* Pods_WayPointJourney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WayPointJourney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		457B482D4A9F7370AA22D180 /* Pods-DesignKit-DesignKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignKit-DesignKitTests.debug.xcconfig"; path = "Target Support Files/Pods-DesignKit-DesignKitTests/Pods-DesignKit-DesignKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B20193343FF8862E4E68419 /* Pods_DesignKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		519C138C23948C11E92E8299 /* Pods-DesignKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignKit.release.xcconfig"; path = "Target Support Files/Pods-DesignKit/Pods-DesignKit.release.xcconfig"; sourceTree = "<group>"; };
+		5C71BD20AAC8BA78A456E05C /* Pods-Models.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Models.release.xcconfig"; path = "Target Support Files/Pods-Models/Pods-Models.release.xcconfig"; sourceTree = "<group>"; };
+		63A618E8E7A26BB14F9CED11 /* Pods_Core_CoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core_CoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D367E1D92B3DBDF89CAA5A1 /* Pods-Models-ModelsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Models-ModelsTests.debug.xcconfig"; path = "Target Support Files/Pods-Models-ModelsTests/Pods-Models-ModelsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7231537145119B45E13DD4D3 /* Pods-WayPointJourney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WayPointJourney.release.xcconfig"; path = "Target Support Files/Pods-WayPointJourney/Pods-WayPointJourney.release.xcconfig"; sourceTree = "<group>"; };
+		72FF33D20CA0ABFFE72099F9 /* Pods-Core-CoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core-CoreTests.release.xcconfig"; path = "Target Support Files/Pods-Core-CoreTests/Pods-Core-CoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		8483F99083B6F2EF059EC5D8 /* Pods-WayPointJourney-WayPointJourneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WayPointJourney-WayPointJourneyTests.debug.xcconfig"; path = "Target Support Files/Pods-WayPointJourney-WayPointJourneyTests/Pods-WayPointJourney-WayPointJourneyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		867046C6099B41D2E82BD659 /* Pods-DesignKit-DesignKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignKit-DesignKitTests.release.xcconfig"; path = "Target Support Files/Pods-DesignKit-DesignKitTests/Pods-DesignKit-DesignKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		89E67523DF374A98966F736A /* Pods-DesignKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignKit.debug.xcconfig"; path = "Target Support Files/Pods-DesignKit/Pods-DesignKit.debug.xcconfig"; sourceTree = "<group>"; };
+		945945E3CB81543A9A32F318 /* Pods_Models_ModelsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Models_ModelsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A796F9889FE2B20C77C3A34E /* Pods_DesignKit_DesignKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignKit_DesignKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABAB2AD20587C3851CC5D37E /* Pods-Core-CoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core-CoreTests.debug.xcconfig"; path = "Target Support Files/Pods-Core-CoreTests/Pods-Core-CoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8C8498FBB1A17EC3D72A5DB /* Pods-Models.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Models.debug.xcconfig"; path = "Target Support Files/Pods-Models/Pods-Models.debug.xcconfig"; sourceTree = "<group>"; };
+		BA422A8D271164FE00BAB3C2 /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		BA422A922711676900BAB3C2 /* WayPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayPointView.swift; sourceTree = "<group>"; };
+		BA422A9427116A9000BAB3C2 /* EditWayPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWayPointView.swift; sourceTree = "<group>"; };
+		BA422A972711A60600BAB3C2 /* SelectRouteListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRouteListPresenter.swift; sourceTree = "<group>"; };
+		BA422A982711A60600BAB3C2 /* SelectRouteListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRouteListWorker.swift; sourceTree = "<group>"; };
+		BA422A992711A60600BAB3C2 /* SelectRouteListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRouteListRouter.swift; sourceTree = "<group>"; };
+		BA422A9A2711A60700BAB3C2 /* SelectRouteListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRouteListModels.swift; sourceTree = "<group>"; };
+		BA422A9B2711A60700BAB3C2 /* SelectRouteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRouteListViewController.swift; sourceTree = "<group>"; };
+		BA422A9C2711A60700BAB3C2 /* SelectRouteListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRouteListInteractor.swift; sourceTree = "<group>"; };
+		BA422A9D2711A60700BAB3C2 /* SelectRouteListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRouteListConfigurator.swift; sourceTree = "<group>"; };
+		BA422AAA2711AFC400BAB3C2 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		BA422AAF2711BD4100BAB3C2 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		BA422AB22711BECF00BAB3C2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		BA422AB62711C02200BAB3C2 /* FetchLocations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FetchLocations.json; sourceTree = "<group>"; };
 		BA6FB8042710337F00E419C3 /* GOGOXCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOGOXCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6FB8072710337F00E419C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA6FB8092710337F00E419C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +269,55 @@
 		BA6FB8102710338000E419C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA6FB8132710338000E419C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA6FB8152710338000E419C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6FB8212710346000E419C3 /* WayPointJourney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WayPointJourney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6FB8232710346000E419C3 /* WayPointJourney.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WayPointJourney.h; sourceTree = "<group>"; };
+		BA6FB8242710346000E419C3 /* WayPointJourney.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WayPointJourney.docc; sourceTree = "<group>"; };
+		BA6FB82A2710346100E419C3 /* WayPointJourneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WayPointJourneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6FB8312710346100E419C3 /* WayPointJourneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayPointJourneyTests.swift; sourceTree = "<group>"; };
+		BA6FB8442710347100E419C3 /* DesignKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6FB8462710347100E419C3 /* DesignKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignKit.h; sourceTree = "<group>"; };
+		BA6FB8472710347100E419C3 /* DesignKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DesignKit.docc; sourceTree = "<group>"; };
+		BA6FB84D2710347200E419C3 /* DesignKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6FB8542710347200E419C3 /* DesignKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignKitTests.swift; sourceTree = "<group>"; };
+		BA6FB8662710347F00E419C3 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6FB8682710347F00E419C3 /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		BA6FB8692710347F00E419C3 /* Core.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Core.docc; sourceTree = "<group>"; };
+		BA6FB86F2710347F00E419C3 /* CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6FB8762710347F00E419C3 /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
+		BA6FB8882710348D00E419C3 /* Models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6FB88A2710348D00E419C3 /* Models.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Models.h; sourceTree = "<group>"; };
+		BA6FB88B2710348D00E419C3 /* Models.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Models.docc; sourceTree = "<group>"; };
+		BA6FB8912710348D00E419C3 /* ModelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6FB8982710348D00E419C3 /* ModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsTests.swift; sourceTree = "<group>"; };
+		BA6FB8B6271035E100E419C3 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		BA6FB8B82710362400E419C3 /* StringProvidable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProvidable.swift; sourceTree = "<group>"; };
+		BA6FB8BA2710367A00E419C3 /* Layouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layouting.swift; sourceTree = "<group>"; };
+		BA6FB8BC271036BE00E419C3 /* WayPointAPIStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayPointAPIStrategy.swift; sourceTree = "<group>"; };
+		BA6FB8C12710375200E419C3 /* WayPointPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayPointPresenter.swift; sourceTree = "<group>"; };
+		BA6FB8C22710375200E419C3 /* WayPointWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayPointWorker.swift; sourceTree = "<group>"; };
+		BA6FB8C32710375200E419C3 /* WayPointRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayPointRouter.swift; sourceTree = "<group>"; };
+		BA6FB8C42710375200E419C3 /* WayPointModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayPointModels.swift; sourceTree = "<group>"; };
+		BA6FB8C52710375200E419C3 /* WayPointViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayPointViewController.swift; sourceTree = "<group>"; };
+		BA6FB8C62710375200E419C3 /* WayPointInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayPointInteractor.swift; sourceTree = "<group>"; };
+		BA6FB8C72710375200E419C3 /* WayPointConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayPointConfigurator.swift; sourceTree = "<group>"; };
+		BA6FB8D3271037B600E419C3 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		BA6FB8D72710382400E419C3 /* ColorLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLayout.swift; sourceTree = "<group>"; };
+		BA6FB8D92710384D00E419C3 /* FontsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsLayout.swift; sourceTree = "<group>"; };
+		BA6FB8DB27103AAD00E419C3 /* JourneyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyFactory.swift; sourceTree = "<group>"; };
+		BA6FB8DD27105DC000E419C3 /* WayPointConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayPointConfiguration.swift; sourceTree = "<group>"; };
+		BA6FB8E127105E3C00E419C3 /* StringProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProvider.swift; sourceTree = "<group>"; };
+		BA6FB8E327105EB200E419C3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BA6FB8E727105F9D00E419C3 /* StubAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubAPIClient.swift; sourceTree = "<group>"; };
+		BA6FB8EA2710602000E419C3 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		BA6FB8EC2710607A00E419C3 /* RealAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealAPIClient.swift; sourceTree = "<group>"; };
+		BA6FB8EF2710610400E419C3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BA6FB8FA2710659400E419C3 /* BaseLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLogic.swift; sourceTree = "<group>"; };
+		D0EDA2258BF3BDD510C55992 /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
+		D8D4DF103BE1DCBF7A63EE67 /* Pods-GOGOXCodeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GOGOXCodeChallenge.debug.xcconfig"; path = "Target Support Files/Pods-GOGOXCodeChallenge/Pods-GOGOXCodeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		E0AFE844E5D0FC6B68C32BF8 /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
+		E14CDBBCBD1BC29282F84905 /* Pods_Models.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Models.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35FC08EF93E516B76DFD884 /* Pods_GOGOXCodeChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GOGOXCodeChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB379B023E9BAA7C303F381 /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +325,176 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6FB89D2710348D00E419C3 /* Models.framework in Frameworks */,
+				BA6FB8362710346100E419C3 /* WayPointJourney.framework in Frameworks */,
+				BA6FB87B2710347F00E419C3 /* Core.framework in Frameworks */,
+				BA6FB8592710347200E419C3 /* DesignKit.framework in Frameworks */,
+				A70E67534317B067494D13D7 /* Pods_GOGOXCodeChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB81E2710346000E419C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB8A6271034A800E419C3 /* Core.framework in Frameworks */,
+				BA6FB8AB271034AE00E419C3 /* DesignKit.framework in Frameworks */,
+				BA6FB8AF271034BA00E419C3 /* Models.framework in Frameworks */,
+				F5C7404FC955A1932C8713F5 /* Pods_WayPointJourney.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8272710346100E419C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB82B2710346100E419C3 /* WayPointJourney.framework in Frameworks */,
+				7F384863B02AE3609A4063FE /* Pods_WayPointJourney_WayPointJourneyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8412710347100E419C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA37309B2712816E000E3367 /* Pods_DesignKit.framework in Frameworks */,
+				BA3730A0271281CA000E3367 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB84A2710347200E419C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB84E2710347200E419C3 /* DesignKit.framework in Frameworks */,
+				A2381D8F8890AF7C4C97BBCD /* Pods_DesignKit_DesignKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8632710347F00E419C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36B527323B77D571195574D /* Pods_Core.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB86C2710347F00E419C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB8702710347F00E419C3 /* Core.framework in Frameworks */,
+				B7FF93F8E30BA0F62660154F /* Pods_Core_CoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8852710348D00E419C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A8A1EB4F20F9CE5826C6F6 /* Pods_Models.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB88E2710348D00E419C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB8922710348D00E419C3 /* Models.framework in Frameworks */,
+				82ADE977D65F2952EB2A940F /* Pods_Models_ModelsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA422A8C2711644300BAB3C2 /* CustomTextFields */ = {
+			isa = PBXGroup;
+			children = (
+				BA422A8D271164FE00BAB3C2 /* InputField.swift */,
+			);
+			path = CustomTextFields;
+			sourceTree = "<group>";
+		};
+		BA422A902711675900BAB3C2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BA422A912711675F00BAB3C2 /* WayPointViews */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BA422A912711675F00BAB3C2 /* WayPointViews */ = {
+			isa = PBXGroup;
+			children = (
+				BA422A922711676900BAB3C2 /* WayPointView.swift */,
+				BA422A9427116A9000BAB3C2 /* EditWayPointView.swift */,
+			);
+			path = WayPointViews;
+			sourceTree = "<group>";
+		};
+		BA422A962711A5F600BAB3C2 /* SelectRouteList */ = {
+			isa = PBXGroup;
+			children = (
+				BA422AAD2711BC9200BAB3C2 /* Views */,
+				BA422A972711A60600BAB3C2 /* SelectRouteListPresenter.swift */,
+				BA422A982711A60600BAB3C2 /* SelectRouteListWorker.swift */,
+				BA422A992711A60600BAB3C2 /* SelectRouteListRouter.swift */,
+				BA422A9A2711A60700BAB3C2 /* SelectRouteListModels.swift */,
+				BA422A9B2711A60700BAB3C2 /* SelectRouteListViewController.swift */,
+				BA422A9C2711A60700BAB3C2 /* SelectRouteListInteractor.swift */,
+				BA422A9D2711A60700BAB3C2 /* SelectRouteListConfigurator.swift */,
+			);
+			path = SelectRouteList;
+			sourceTree = "<group>";
+		};
+		BA422AAD2711BC9200BAB3C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA422AAE2711BCA700BAB3C2 /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA422AAE2711BCA700BAB3C2 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				BA422AAF2711BD4100BAB3C2 /* LocationTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		BA422AB12711BEC500BAB3C2 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				BA422AB22711BECF00BAB3C2 /* Location.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		BA422AB52711BFF100BAB3C2 /* StubJsons */ = {
+			isa = PBXGroup;
+			children = (
+				BA422AB62711C02200BAB3C2 /* FetchLocations.json */,
+			);
+			path = StubJsons;
+			sourceTree = "<group>";
+		};
 		BA6FB7FB2710337F00E419C3 = {
 			isa = PBXGroup;
 			children = (
 				BA6FB8062710337F00E419C3 /* GOGOXCodeChallenge */,
+				BA6FB8222710346000E419C3 /* WayPointJourney */,
+				BA6FB8302710346100E419C3 /* WayPointJourneyTests */,
+				BA6FB8452710347100E419C3 /* DesignKit */,
+				BA6FB8532710347200E419C3 /* DesignKitTests */,
+				BA6FB8672710347F00E419C3 /* Core */,
+				BA6FB8752710347F00E419C3 /* CoreTests */,
+				BA6FB8892710348D00E419C3 /* Models */,
+				BA6FB8972710348D00E419C3 /* ModelsTests */,
 				BA6FB8052710337F00E419C3 /* Products */,
+				BA6FB8A5271034A800E419C3 /* Frameworks */,
+				E21BF2C2906C7A10EFEBDC72 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +502,14 @@
 			isa = PBXGroup;
 			children = (
 				BA6FB8042710337F00E419C3 /* GOGOXCodeChallenge.app */,
+				BA6FB8212710346000E419C3 /* WayPointJourney.framework */,
+				BA6FB82A2710346100E419C3 /* WayPointJourneyTests.xctest */,
+				BA6FB8442710347100E419C3 /* DesignKit.framework */,
+				BA6FB84D2710347200E419C3 /* DesignKitTests.xctest */,
+				BA6FB8662710347F00E419C3 /* Core.framework */,
+				BA6FB86F2710347F00E419C3 /* CoreTests.xctest */,
+				BA6FB8882710348D00E419C3 /* Models.framework */,
+				BA6FB8912710348D00E419C3 /* ModelsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +517,8 @@
 		BA6FB8062710337F00E419C3 /* GOGOXCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				BA6FB8B42710358B00E419C3 /* Configurations */,
+				BA6FB81B2710340D00E419C3 /* Resources */,
 				BA6FB8072710337F00E419C3 /* AppDelegate.swift */,
 				BA6FB8092710337F00E419C3 /* SceneDelegate.swift */,
 				BA6FB80B2710337F00E419C3 /* ViewController.swift */,
@@ -63,29 +526,491 @@
 				BA6FB8102710338000E419C3 /* Assets.xcassets */,
 				BA6FB8122710338000E419C3 /* LaunchScreen.storyboard */,
 				BA6FB8152710338000E419C3 /* Info.plist */,
+				BA6FB8E327105EB200E419C3 /* Constants.swift */,
 			);
 			path = GOGOXCodeChallenge;
 			sourceTree = "<group>";
 		};
+		BA6FB81B2710340D00E419C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA422AB52711BFF100BAB3C2 /* StubJsons */,
+				BA422AAA2711AFC400BAB3C2 /* Images.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BA6FB8222710346000E419C3 /* WayPointJourney */ = {
+			isa = PBXGroup;
+			children = (
+				BA422A902711675900BAB3C2 /* Common */,
+				BA6FB8EE271060F200E419C3 /* Base */,
+				BA6FB8BF2710371300E419C3 /* Scenes */,
+				BA6FB8B5271035D200E419C3 /* Configurations */,
+				BA6FB8232710346000E419C3 /* WayPointJourney.h */,
+				BA6FB8242710346000E419C3 /* WayPointJourney.docc */,
+			);
+			path = WayPointJourney;
+			sourceTree = "<group>";
+		};
+		BA6FB8302710346100E419C3 /* WayPointJourneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8312710346100E419C3 /* WayPointJourneyTests.swift */,
+			);
+			path = WayPointJourneyTests;
+			sourceTree = "<group>";
+		};
+		BA6FB8452710347100E419C3 /* DesignKit */ = {
+			isa = PBXGroup;
+			children = (
+				BA422A8C2711644300BAB3C2 /* CustomTextFields */,
+				BA6FB8462710347100E419C3 /* DesignKit.h */,
+				BA6FB8472710347100E419C3 /* DesignKit.docc */,
+			);
+			path = DesignKit;
+			sourceTree = "<group>";
+		};
+		BA6FB8532710347200E419C3 /* DesignKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8542710347200E419C3 /* DesignKitTests.swift */,
+			);
+			path = DesignKitTests;
+			sourceTree = "<group>";
+		};
+		BA6FB8672710347F00E419C3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8682710347F00E419C3 /* Core.h */,
+				BA6FB8692710347F00E419C3 /* Core.docc */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BA6FB8752710347F00E419C3 /* CoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8762710347F00E419C3 /* CoreTests.swift */,
+			);
+			path = CoreTests;
+			sourceTree = "<group>";
+		};
+		BA6FB8892710348D00E419C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA422AB12711BEC500BAB3C2 /* Location */,
+				BA6FB8E92710601900E419C3 /* API */,
+				BA6FB88A2710348D00E419C3 /* Models.h */,
+				BA6FB88B2710348D00E419C3 /* Models.docc */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA6FB8972710348D00E419C3 /* ModelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8982710348D00E419C3 /* ModelsTests.swift */,
+			);
+			path = ModelsTests;
+			sourceTree = "<group>";
+		};
+		BA6FB8A5271034A800E419C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB379B023E9BAA7C303F381 /* Pods_Core.framework */,
+				63A618E8E7A26BB14F9CED11 /* Pods_Core_CoreTests.framework */,
+				4B20193343FF8862E4E68419 /* Pods_DesignKit.framework */,
+				A796F9889FE2B20C77C3A34E /* Pods_DesignKit_DesignKitTests.framework */,
+				E35FC08EF93E516B76DFD884 /* Pods_GOGOXCodeChallenge.framework */,
+				E14CDBBCBD1BC29282F84905 /* Pods_Models.framework */,
+				945945E3CB81543A9A32F318 /* Pods_Models_ModelsTests.framework */,
+				4483A72790D5489E035761D3 /* Pods_WayPointJourney.framework */,
+				1B697F70EE54D0D63C6953AA /* Pods_WayPointJourney_WayPointJourneyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA6FB8B42710358B00E419C3 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8DD27105DC000E419C3 /* WayPointConfiguration.swift */,
+				BA6FB8D12710378D00E419C3 /* APIClient */,
+				BA6FB8E527105F8200E419C3 /* APIClients */,
+				BA6FB8D2271037A500E419C3 /* Layout */,
+				BA6FB8DF27105E2000E419C3 /* StringProvider */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		BA6FB8B5271035D200E419C3 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8BE271036C500E419C3 /* API */,
+				BA6FB8B6271035E100E419C3 /* Configuration.swift */,
+				BA6FB8B82710362400E419C3 /* StringProvidable.swift */,
+				BA6FB8BA2710367A00E419C3 /* Layouting.swift */,
+				BA6FB8DB27103AAD00E419C3 /* JourneyFactory.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		BA6FB8BE271036C500E419C3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8BC271036BE00E419C3 /* WayPointAPIStrategy.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BA6FB8BF2710371300E419C3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BA422A962711A5F600BAB3C2 /* SelectRouteList */,
+				BA6FB8C02710373800E419C3 /* WayPoint */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BA6FB8C02710373800E419C3 /* WayPoint */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8C12710375200E419C3 /* WayPointPresenter.swift */,
+				BA6FB8C22710375200E419C3 /* WayPointWorker.swift */,
+				BA6FB8C32710375200E419C3 /* WayPointRouter.swift */,
+				BA6FB8C42710375200E419C3 /* WayPointModels.swift */,
+				BA6FB8C52710375200E419C3 /* WayPointViewController.swift */,
+				BA6FB8C62710375200E419C3 /* WayPointInteractor.swift */,
+				BA6FB8C72710375200E419C3 /* WayPointConfigurator.swift */,
+			);
+			path = WayPoint;
+			sourceTree = "<group>";
+		};
+		BA6FB8D12710378D00E419C3 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		BA6FB8D2271037A500E419C3 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8D62710381900E419C3 /* Colors */,
+				BA6FB8D5271037FC00E419C3 /* Fonts */,
+				BA6FB8D3271037B600E419C3 /* Layout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		BA6FB8D5271037FC00E419C3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8D92710384D00E419C3 /* FontsLayout.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BA6FB8D62710381900E419C3 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8D72710382400E419C3 /* ColorLayout.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		BA6FB8DF27105E2000E419C3 /* StringProvider */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8E127105E3C00E419C3 /* StringProvider.swift */,
+			);
+			path = StringProvider;
+			sourceTree = "<group>";
+		};
+		BA6FB8E527105F8200E419C3 /* APIClients */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8E627105F9400E419C3 /* Stub */,
+				BA6FB8EC2710607A00E419C3 /* RealAPIClient.swift */,
+			);
+			path = APIClients;
+			sourceTree = "<group>";
+		};
+		BA6FB8E627105F9400E419C3 /* Stub */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8E727105F9D00E419C3 /* StubAPIClient.swift */,
+			);
+			path = Stub;
+			sourceTree = "<group>";
+		};
+		BA6FB8E92710601900E419C3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8EA2710602000E419C3 /* APIError.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BA6FB8EE271060F200E419C3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BA6FB8EF2710610400E419C3 /* BaseViewController.swift */,
+				BA6FB8FA2710659400E419C3 /* BaseLogic.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E21BF2C2906C7A10EFEBDC72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0AFE844E5D0FC6B68C32BF8 /* Pods-Core.debug.xcconfig */,
+				D0EDA2258BF3BDD510C55992 /* Pods-Core.release.xcconfig */,
+				ABAB2AD20587C3851CC5D37E /* Pods-Core-CoreTests.debug.xcconfig */,
+				72FF33D20CA0ABFFE72099F9 /* Pods-Core-CoreTests.release.xcconfig */,
+				89E67523DF374A98966F736A /* Pods-DesignKit.debug.xcconfig */,
+				519C138C23948C11E92E8299 /* Pods-DesignKit.release.xcconfig */,
+				457B482D4A9F7370AA22D180 /* Pods-DesignKit-DesignKitTests.debug.xcconfig */,
+				867046C6099B41D2E82BD659 /* Pods-DesignKit-DesignKitTests.release.xcconfig */,
+				D8D4DF103BE1DCBF7A63EE67 /* Pods-GOGOXCodeChallenge.debug.xcconfig */,
+				364A3F992C00A5BB5E619BD2 /* Pods-GOGOXCodeChallenge.release.xcconfig */,
+				B8C8498FBB1A17EC3D72A5DB /* Pods-Models.debug.xcconfig */,
+				5C71BD20AAC8BA78A456E05C /* Pods-Models.release.xcconfig */,
+				6D367E1D92B3DBDF89CAA5A1 /* Pods-Models-ModelsTests.debug.xcconfig */,
+				3619F0F9057588057F40EC3D /* Pods-Models-ModelsTests.release.xcconfig */,
+				289F25E33AB1BD501F398308 /* Pods-WayPointJourney.debug.xcconfig */,
+				7231537145119B45E13DD4D3 /* Pods-WayPointJourney.release.xcconfig */,
+				8483F99083B6F2EF059EC5D8 /* Pods-WayPointJourney-WayPointJourneyTests.debug.xcconfig */,
+				21993ABED65080A873353532 /* Pods-WayPointJourney-WayPointJourneyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BA6FB81C2710346000E419C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB8332710346100E419C3 /* WayPointJourney.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB83F2710347100E419C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB8562710347200E419C3 /* DesignKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8612710347F00E419C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB8782710347F00E419C3 /* Core.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8832710348D00E419C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB89A2710348D00E419C3 /* Models.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		BA6FB8032710337F00E419C3 /* GOGOXCodeChallenge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA6FB8182710338000E419C3 /* Build configuration list for PBXNativeTarget "GOGOXCodeChallenge" */;
 			buildPhases = (
+				96DDA0F00747B1A444A3EFCA /* [CP] Check Pods Manifest.lock */,
 				BA6FB8002710337F00E419C3 /* Sources */,
 				BA6FB8012710337F00E419C3 /* Frameworks */,
 				BA6FB8022710337F00E419C3 /* Resources */,
+				BA6FB83B2710346100E419C3 /* Embed Frameworks */,
+				B8CCEDE703F1A75F688A0680 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BA6FB8352710346100E419C3 /* PBXTargetDependency */,
+				BA6FB8582710347200E419C3 /* PBXTargetDependency */,
+				BA6FB87A2710347F00E419C3 /* PBXTargetDependency */,
+				BA6FB89C2710348D00E419C3 /* PBXTargetDependency */,
 			);
 			name = GOGOXCodeChallenge;
 			productName = GOGOXCodeChallenge;
 			productReference = BA6FB8042710337F00E419C3 /* GOGOXCodeChallenge.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BA6FB8202710346000E419C3 /* WayPointJourney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6FB8382710346100E419C3 /* Build configuration list for PBXNativeTarget "WayPointJourney" */;
+			buildPhases = (
+				2CCE14F9EDD6F68F0AD82078 /* [CP] Check Pods Manifest.lock */,
+				BA6FB81C2710346000E419C3 /* Headers */,
+				BA6FB81D2710346000E419C3 /* Sources */,
+				BA6FB81E2710346000E419C3 /* Frameworks */,
+				BA6FB81F2710346000E419C3 /* Resources */,
+				BA37309927127C20000E3367 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6FB8A9271034A800E419C3 /* PBXTargetDependency */,
+				BA6FB8AE271034AE00E419C3 /* PBXTargetDependency */,
+				BA6FB8B2271034BA00E419C3 /* PBXTargetDependency */,
+			);
+			name = WayPointJourney;
+			productName = WayPointJourney;
+			productReference = BA6FB8212710346000E419C3 /* WayPointJourney.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA6FB8292710346100E419C3 /* WayPointJourneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6FB83C2710346100E419C3 /* Build configuration list for PBXNativeTarget "WayPointJourneyTests" */;
+			buildPhases = (
+				3DDE7211B7E4D6E43DEE6964 /* [CP] Check Pods Manifest.lock */,
+				BA6FB8262710346100E419C3 /* Sources */,
+				BA6FB8272710346100E419C3 /* Frameworks */,
+				BA6FB8282710346100E419C3 /* Resources */,
+				6DDAAC6302FE982DCDD73FAB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6FB82D2710346100E419C3 /* PBXTargetDependency */,
+				BA6FB82F2710346100E419C3 /* PBXTargetDependency */,
+			);
+			name = WayPointJourneyTests;
+			productName = WayPointJourneyTests;
+			productReference = BA6FB82A2710346100E419C3 /* WayPointJourneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA6FB8432710347100E419C3 /* DesignKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6FB85B2710347200E419C3 /* Build configuration list for PBXNativeTarget "DesignKit" */;
+			buildPhases = (
+				FE5EF253F9BCBC4904F0A6D1 /* [CP] Check Pods Manifest.lock */,
+				BA6FB83F2710347100E419C3 /* Headers */,
+				BA6FB8402710347100E419C3 /* Sources */,
+				BA6FB8412710347100E419C3 /* Frameworks */,
+				BA6FB8422710347100E419C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignKit;
+			packageProductDependencies = (
+				BA37309F271281CA000E3367 /* SnapKit */,
+			);
+			productName = DesignKit;
+			productReference = BA6FB8442710347100E419C3 /* DesignKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA6FB84C2710347200E419C3 /* DesignKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6FB85E2710347200E419C3 /* Build configuration list for PBXNativeTarget "DesignKitTests" */;
+			buildPhases = (
+				751C2CAE996235ADB3179CFB /* [CP] Check Pods Manifest.lock */,
+				BA6FB8492710347200E419C3 /* Sources */,
+				BA6FB84A2710347200E419C3 /* Frameworks */,
+				BA6FB84B2710347200E419C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6FB8502710347200E419C3 /* PBXTargetDependency */,
+				BA6FB8522710347200E419C3 /* PBXTargetDependency */,
+			);
+			name = DesignKitTests;
+			productName = DesignKitTests;
+			productReference = BA6FB84D2710347200E419C3 /* DesignKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA6FB8652710347F00E419C3 /* Core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6FB87D2710347F00E419C3 /* Build configuration list for PBXNativeTarget "Core" */;
+			buildPhases = (
+				5F4D6D3349A08EDFA467B427 /* [CP] Check Pods Manifest.lock */,
+				BA6FB8612710347F00E419C3 /* Headers */,
+				BA6FB8622710347F00E419C3 /* Sources */,
+				BA6FB8632710347F00E419C3 /* Frameworks */,
+				BA6FB8642710347F00E419C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Core;
+			productName = Core;
+			productReference = BA6FB8662710347F00E419C3 /* Core.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA6FB86E2710347F00E419C3 /* CoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6FB8802710347F00E419C3 /* Build configuration list for PBXNativeTarget "CoreTests" */;
+			buildPhases = (
+				4463D8C2F873AA8D81E8A44F /* [CP] Check Pods Manifest.lock */,
+				BA6FB86B2710347F00E419C3 /* Sources */,
+				BA6FB86C2710347F00E419C3 /* Frameworks */,
+				BA6FB86D2710347F00E419C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6FB8722710347F00E419C3 /* PBXTargetDependency */,
+				BA6FB8742710347F00E419C3 /* PBXTargetDependency */,
+			);
+			name = CoreTests;
+			productName = CoreTests;
+			productReference = BA6FB86F2710347F00E419C3 /* CoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA6FB8872710348D00E419C3 /* Models */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6FB89F2710348D00E419C3 /* Build configuration list for PBXNativeTarget "Models" */;
+			buildPhases = (
+				F09B54711C1706DD0B428B78 /* [CP] Check Pods Manifest.lock */,
+				BA6FB8832710348D00E419C3 /* Headers */,
+				BA6FB8842710348D00E419C3 /* Sources */,
+				BA6FB8852710348D00E419C3 /* Frameworks */,
+				BA6FB8862710348D00E419C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Models;
+			productName = Models;
+			productReference = BA6FB8882710348D00E419C3 /* Models.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA6FB8902710348D00E419C3 /* ModelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6FB8A22710348D00E419C3 /* Build configuration list for PBXNativeTarget "ModelsTests" */;
+			buildPhases = (
+				339D551AA22CB0FDE55A45B0 /* [CP] Check Pods Manifest.lock */,
+				BA6FB88D2710348D00E419C3 /* Sources */,
+				BA6FB88E2710348D00E419C3 /* Frameworks */,
+				BA6FB88F2710348D00E419C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6FB8942710348D00E419C3 /* PBXTargetDependency */,
+				BA6FB8962710348D00E419C3 /* PBXTargetDependency */,
+			);
+			name = ModelsTests;
+			productName = ModelsTests;
+			productReference = BA6FB8912710348D00E419C3 /* ModelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +1025,34 @@
 					BA6FB8032710337F00E419C3 = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					BA6FB8202710346000E419C3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					BA6FB8292710346100E419C3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BA6FB8032710337F00E419C3;
+					};
+					BA6FB8432710347100E419C3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					BA6FB84C2710347200E419C3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BA6FB8032710337F00E419C3;
+					};
+					BA6FB8652710347F00E419C3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					BA6FB86E2710347F00E419C3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BA6FB8032710337F00E419C3;
+					};
+					BA6FB8872710348D00E419C3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					BA6FB8902710348D00E419C3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BA6FB8032710337F00E419C3;
+					};
 				};
 			};
 			buildConfigurationList = BA6FB7FF2710337F00E419C3 /* Build configuration list for PBXProject "GOGOXCodeChallenge" */;
@@ -111,11 +1064,22 @@
 				Base,
 			);
 			mainGroup = BA6FB7FB2710337F00E419C3;
+			packageReferences = (
+				BA37309E271281CA000E3367 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = BA6FB8052710337F00E419C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				BA6FB8032710337F00E419C3 /* GOGOXCodeChallenge */,
+				BA6FB8202710346000E419C3 /* WayPointJourney */,
+				BA6FB8292710346100E419C3 /* WayPointJourneyTests */,
+				BA6FB8432710347100E419C3 /* DesignKit */,
+				BA6FB84C2710347200E419C3 /* DesignKitTests */,
+				BA6FB8652710347F00E419C3 /* Core */,
+				BA6FB86E2710347F00E419C3 /* CoreTests */,
+				BA6FB8872710348D00E419C3 /* Models */,
+				BA6FB8902710348D00E419C3 /* ModelsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -126,25 +1090,496 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA6FB8142710338000E419C3 /* LaunchScreen.storyboard in Resources */,
+				BA422AB72711C02200BAB3C2 /* FetchLocations.json in Resources */,
 				BA6FB8112710338000E419C3 /* Assets.xcassets in Resources */,
 				BA6FB80F2710337F00E419C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA6FB81F2710346000E419C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8282710346100E419C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8422710347100E419C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB84B2710347200E419C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8642710347F00E419C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB86D2710347F00E419C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8862710348D00E419C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB88F2710348D00E419C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CCE14F9EDD6F68F0AD82078 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WayPointJourney-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		339D551AA22CB0FDE55A45B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Models-ModelsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DDE7211B7E4D6E43DEE6964 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WayPointJourney-WayPointJourneyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4463D8C2F873AA8D81E8A44F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Core-CoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F4D6D3349A08EDFA467B427 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Core-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DDAAC6302FE982DCDD73FAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WayPointJourney-WayPointJourneyTests/Pods-WayPointJourney-WayPointJourneyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WayPointJourney-WayPointJourneyTests/Pods-WayPointJourney-WayPointJourneyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WayPointJourney-WayPointJourneyTests/Pods-WayPointJourney-WayPointJourneyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		751C2CAE996235ADB3179CFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesignKit-DesignKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96DDA0F00747B1A444A3EFCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GOGOXCodeChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8CCEDE703F1A75F688A0680 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GOGOXCodeChallenge/Pods-GOGOXCodeChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GOGOXCodeChallenge/Pods-GOGOXCodeChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GOGOXCodeChallenge/Pods-GOGOXCodeChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09B54711C1706DD0B428B78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Models-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5EF253F9BCBC4904F0A6D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesignKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA6FB8002710337F00E419C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6FB8DE27105DC000E419C3 /* WayPointConfiguration.swift in Sources */,
+				BA422AAB2711AFC400BAB3C2 /* Images.swift in Sources */,
+				BA6FB8E827105F9D00E419C3 /* StubAPIClient.swift in Sources */,
+				BA6FB8E227105E3C00E419C3 /* StringProvider.swift in Sources */,
 				BA6FB80C2710337F00E419C3 /* ViewController.swift in Sources */,
+				BA6FB8D4271037B600E419C3 /* Layout.swift in Sources */,
 				BA6FB8082710337F00E419C3 /* AppDelegate.swift in Sources */,
+				BA6FB8ED2710607A00E419C3 /* RealAPIClient.swift in Sources */,
 				BA6FB80A2710337F00E419C3 /* SceneDelegate.swift in Sources */,
+				BA6FB8DA2710384D00E419C3 /* FontsLayout.swift in Sources */,
+				BA6FB8D82710382400E419C3 /* ColorLayout.swift in Sources */,
+				BA6FB8E427105EB200E419C3 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB81D2710346000E419C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB8B92710362400E419C3 /* StringProvidable.swift in Sources */,
+				BA6FB8DC27103AAD00E419C3 /* JourneyFactory.swift in Sources */,
+				BA422AA32711A60700BAB3C2 /* SelectRouteListViewController.swift in Sources */,
+				BA422AA12711A60700BAB3C2 /* SelectRouteListRouter.swift in Sources */,
+				BA6FB8C92710375200E419C3 /* WayPointPresenter.swift in Sources */,
+				BA6FB8CE2710375200E419C3 /* WayPointInteractor.swift in Sources */,
+				BA422AA42711A60700BAB3C2 /* SelectRouteListInteractor.swift in Sources */,
+				BA6FB8BD271036BE00E419C3 /* WayPointAPIStrategy.swift in Sources */,
+				BA6FB8F02710610400E419C3 /* BaseViewController.swift in Sources */,
+				BA6FB8CB2710375200E419C3 /* WayPointRouter.swift in Sources */,
+				BA422A932711676900BAB3C2 /* WayPointView.swift in Sources */,
+				BA6FB8FB2710659400E419C3 /* BaseLogic.swift in Sources */,
+				BA6FB8B7271035E100E419C3 /* Configuration.swift in Sources */,
+				BA6FB8BB2710367A00E419C3 /* Layouting.swift in Sources */,
+				BA422A9527116A9000BAB3C2 /* EditWayPointView.swift in Sources */,
+				BA422A9F2711A60700BAB3C2 /* SelectRouteListPresenter.swift in Sources */,
+				BA6FB8252710346000E419C3 /* WayPointJourney.docc in Sources */,
+				BA422AA22711A60700BAB3C2 /* SelectRouteListModels.swift in Sources */,
+				BA422AB02711BD4100BAB3C2 /* LocationTableViewCell.swift in Sources */,
+				BA6FB8CD2710375200E419C3 /* WayPointViewController.swift in Sources */,
+				BA6FB8CC2710375200E419C3 /* WayPointModels.swift in Sources */,
+				BA6FB8CA2710375200E419C3 /* WayPointWorker.swift in Sources */,
+				BA422AA02711A60700BAB3C2 /* SelectRouteListWorker.swift in Sources */,
+				BA422AAC2711B01A00BAB3C2 /* Images.swift in Sources */,
+				BA422AA52711A60700BAB3C2 /* SelectRouteListConfigurator.swift in Sources */,
+				BA6FB8CF2710375200E419C3 /* WayPointConfigurator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8262710346100E419C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB8322710346100E419C3 /* WayPointJourneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8402710347100E419C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB8482710347100E419C3 /* DesignKit.docc in Sources */,
+				BA422A8E271164FE00BAB3C2 /* InputField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8492710347200E419C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB8552710347200E419C3 /* DesignKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8622710347F00E419C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB86A2710347F00E419C3 /* Core.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB86B2710347F00E419C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB8772710347F00E419C3 /* CoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB8842710348D00E419C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB88C2710348D00E419C3 /* Models.docc in Sources */,
+				BA422AB32711BECF00BAB3C2 /* Location.swift in Sources */,
+				BA6FB8EB2710602000E419C3 /* APIError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6FB88D2710348D00E419C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6FB8992710348D00E419C3 /* ModelsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA6FB82D2710346100E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8202710346000E419C3 /* WayPointJourney */;
+			targetProxy = BA6FB82C2710346100E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB82F2710346100E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8032710337F00E419C3 /* GOGOXCodeChallenge */;
+			targetProxy = BA6FB82E2710346100E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB8352710346100E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8202710346000E419C3 /* WayPointJourney */;
+			targetProxy = BA6FB8342710346100E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB8502710347200E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8432710347100E419C3 /* DesignKit */;
+			targetProxy = BA6FB84F2710347200E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB8522710347200E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8032710337F00E419C3 /* GOGOXCodeChallenge */;
+			targetProxy = BA6FB8512710347200E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB8582710347200E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8432710347100E419C3 /* DesignKit */;
+			targetProxy = BA6FB8572710347200E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB8722710347F00E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8652710347F00E419C3 /* Core */;
+			targetProxy = BA6FB8712710347F00E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB8742710347F00E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8032710337F00E419C3 /* GOGOXCodeChallenge */;
+			targetProxy = BA6FB8732710347F00E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB87A2710347F00E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8652710347F00E419C3 /* Core */;
+			targetProxy = BA6FB8792710347F00E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB8942710348D00E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8872710348D00E419C3 /* Models */;
+			targetProxy = BA6FB8932710348D00E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB8962710348D00E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8032710337F00E419C3 /* GOGOXCodeChallenge */;
+			targetProxy = BA6FB8952710348D00E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB89C2710348D00E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8872710348D00E419C3 /* Models */;
+			targetProxy = BA6FB89B2710348D00E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB8A9271034A800E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8652710347F00E419C3 /* Core */;
+			targetProxy = BA6FB8A8271034A800E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB8AE271034AE00E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8432710347100E419C3 /* DesignKit */;
+			targetProxy = BA6FB8AD271034AE00E419C3 /* PBXContainerItemProxy */;
+		};
+		BA6FB8B2271034BA00E419C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6FB8872710348D00E419C3 /* Models */;
+			targetProxy = BA6FB8B1271034BA00E419C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BA6FB80D2710337F00E419C3 /* Main.storyboard */ = {
@@ -284,12 +1719,15 @@
 		};
 		BA6FB8192710338000E419C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D4DF103BE1DCBF7A63EE67 /* Pods-GOGOXCodeChallenge.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HUX5PZ3HTT;
+				DEVELOPMENT_TEAM = HA734CJRJ3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GOGOXCodeChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -304,6 +1742,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.GOGOXCodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,12 +1751,15 @@
 		};
 		BA6FB81A2710338000E419C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364A3F992C00A5BB5E619BD2 /* Pods-GOGOXCodeChallenge.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HUX5PZ3HTT;
+				DEVELOPMENT_TEAM = HA734CJRJ3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GOGOXCodeChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -332,9 +1774,450 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.GOGOXCodeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA6FB8392710346100E419C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289F25E33AB1BD501F398308 /* Pods-WayPointJourney.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HA734CJRJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.WayPointJourney;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA6FB83A2710346100E419C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7231537145119B45E13DD4D3 /* Pods-WayPointJourney.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HA734CJRJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.WayPointJourney;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA6FB83D2710346100E419C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8483F99083B6F2EF059EC5D8 /* Pods-WayPointJourney-WayPointJourneyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUX5PZ3HTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.WayPointJourneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOGOXCodeChallenge.app/GOGOXCodeChallenge";
+			};
+			name = Debug;
+		};
+		BA6FB83E2710346100E419C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21993ABED65080A873353532 /* Pods-WayPointJourney-WayPointJourneyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUX5PZ3HTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.WayPointJourneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOGOXCodeChallenge.app/GOGOXCodeChallenge";
+			};
+			name = Release;
+		};
+		BA6FB85C2710347200E419C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E67523DF374A98966F736A /* Pods-DesignKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HA734CJRJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.DesignKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA6FB85D2710347200E419C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519C138C23948C11E92E8299 /* Pods-DesignKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HA734CJRJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.DesignKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA6FB85F2710347200E419C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 457B482D4A9F7370AA22D180 /* Pods-DesignKit-DesignKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUX5PZ3HTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.DesignKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOGOXCodeChallenge.app/GOGOXCodeChallenge";
+			};
+			name = Debug;
+		};
+		BA6FB8602710347200E419C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867046C6099B41D2E82BD659 /* Pods-DesignKit-DesignKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUX5PZ3HTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.DesignKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOGOXCodeChallenge.app/GOGOXCodeChallenge";
+			};
+			name = Release;
+		};
+		BA6FB87E2710347F00E419C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AFE844E5D0FC6B68C32BF8 /* Pods-Core.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HA734CJRJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.Core;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA6FB87F2710347F00E419C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EDA2258BF3BDD510C55992 /* Pods-Core.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HA734CJRJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.Core;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA6FB8812710347F00E419C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABAB2AD20587C3851CC5D37E /* Pods-Core-CoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUX5PZ3HTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.CoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOGOXCodeChallenge.app/GOGOXCodeChallenge";
+			};
+			name = Debug;
+		};
+		BA6FB8822710347F00E419C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72FF33D20CA0ABFFE72099F9 /* Pods-Core-CoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUX5PZ3HTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.CoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOGOXCodeChallenge.app/GOGOXCodeChallenge";
+			};
+			name = Release;
+		};
+		BA6FB8A02710348D00E419C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8C8498FBB1A17EC3D72A5DB /* Pods-Models.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HA734CJRJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.Models;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA6FB8A12710348D00E419C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C71BD20AAC8BA78A456E05C /* Pods-Models.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HA734CJRJ3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.Models;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA6FB8A32710348D00E419C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D367E1D92B3DBDF89CAA5A1 /* Pods-Models-ModelsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUX5PZ3HTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.ModelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOGOXCodeChallenge.app/GOGOXCodeChallenge";
+			};
+			name = Debug;
+		};
+		BA6FB8A42710348D00E419C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3619F0F9057588057F40EC3D /* Pods-Models-ModelsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUX5PZ3HTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOGOX.ModelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOGOXCodeChallenge.app/GOGOXCodeChallenge";
 			};
 			name = Release;
 		};
@@ -359,7 +2242,98 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BA6FB8382710346100E419C3 /* Build configuration list for PBXNativeTarget "WayPointJourney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6FB8392710346100E419C3 /* Debug */,
+				BA6FB83A2710346100E419C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6FB83C2710346100E419C3 /* Build configuration list for PBXNativeTarget "WayPointJourneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6FB83D2710346100E419C3 /* Debug */,
+				BA6FB83E2710346100E419C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6FB85B2710347200E419C3 /* Build configuration list for PBXNativeTarget "DesignKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6FB85C2710347200E419C3 /* Debug */,
+				BA6FB85D2710347200E419C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6FB85E2710347200E419C3 /* Build configuration list for PBXNativeTarget "DesignKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6FB85F2710347200E419C3 /* Debug */,
+				BA6FB8602710347200E419C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6FB87D2710347F00E419C3 /* Build configuration list for PBXNativeTarget "Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6FB87E2710347F00E419C3 /* Debug */,
+				BA6FB87F2710347F00E419C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6FB8802710347F00E419C3 /* Build configuration list for PBXNativeTarget "CoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6FB8812710347F00E419C3 /* Debug */,
+				BA6FB8822710347F00E419C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6FB89F2710348D00E419C3 /* Build configuration list for PBXNativeTarget "Models" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6FB8A02710348D00E419C3 /* Debug */,
+				BA6FB8A12710348D00E419C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6FB8A22710348D00E419C3 /* Build configuration list for PBXNativeTarget "ModelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6FB8A32710348D00E419C3 /* Debug */,
+				BA6FB8A42710348D00E419C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA37309E271281CA000E3367 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA37309F271281CA000E3367 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA37309E271281CA000E3367 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BA6FB7FC2710337F00E419C3 /* Project object */;
 }
